@@ -1,0 +1,59 @@
+.pageBTN{
+    width: 40px;
+}
+.followBTN{
+    margin: 5px;
+    margin-left: 40px;
+}
+.getUsersBTN{
+    margin: 5px;
+}
+.userInfo{
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.users{
+    display: grid;
+    grid-template-columns: 1fr 1000fr;
+    grid-template-areas: "i a l";
+    margin-top: 20px;
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    grid-area: i;
+}
+.userInfo{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: large;
+}
+.aboutUser{
+    grid-area: a;
+}
+.location{
+    grid-area: l;
+}
+.selectedPage{
+color: red ;
+font-weight: bold;
+
+}
+.page{
+    text-align: center;
+    padding: 8px 16px;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+    display:inline-block;
+    border: 2px solid black; 
+    border-radius: 10%;
+    
+}
+.preloader{
+    width: 300px;
+}

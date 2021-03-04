@@ -1,0 +1,22 @@
+.email{
+  margin: 10px;
+}
+.pass{
+  margin: 10px;
+}
+h1{
+  margin: 10px;
+}
+.remember{
+  margin: 10px;
+  
+}
+.formSummaryError{
+  padding: 5px;
+  color: red;
+}
+.loginBTN{
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 10% ;
+}

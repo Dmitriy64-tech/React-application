@@ -1,0 +1,20 @@
+.item {
+  color: black;
+}
+
+.profilePH {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.postText{
+    font-size: large;
+}
+.like{
+  width: 40px;
+  transition: 0.4s;
+}
+
+.like:hover {
+  transform: scale(1.15); /* Увеличиваем масштаб */
+ }

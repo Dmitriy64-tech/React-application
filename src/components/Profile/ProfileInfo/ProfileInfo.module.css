@@ -1,0 +1,17 @@
+.descriptionBlock {
+    padding: 10px;
+}
+img{
+    width: 600px;
+}
+.avatar{
+    width: 300px;
+    border-radius: 50%;
+}
+.profileName{
+    font-size: xx-large;
+    font-style: italic;
+}
+.status{
+    margin-bottom: 20px;
+}
