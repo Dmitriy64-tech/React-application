@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Post.module.css';
+import userPhoto from 'D:\\Git Rep\\React-application\\src\\img\\36b78c8b7cd957e082f53148b74787ea.jpg';
 
 const Post = (props) => {
   const [likes, setLike] = React.useState(props.likesCount);
@@ -14,7 +15,7 @@ const Post = (props) => {
   }
   return (
     <div className={s.item}>
-      <img className={s.profilePH} src='https://dthezntil550i.cloudfront.net/kg/latest/kg1802132010216500004834729/1280_960/557d644f-12f3-49e1-bb66-23c16400540d.png' />
+      <img className={s.profilePH} src={userPhoto} />
       <span className={s.postText}>{props.message}</span>
       <div>
         <span onClick={putLike}><img className={s.like} src={"https://i.pinimg.com/originals/39/44/6c/39446caa52f53369b92bc97253d2b2f1.png"}></img></span>

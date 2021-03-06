@@ -6,12 +6,16 @@ import { Redirect } from 'react-router-dom';
 const Profile = (props) => {
     return (
         <div>
-            <ProfileInfo profile={props.profile} 
+            <ProfileInfo
+            isOwner ={props.isOwner}
+            profile={props.profile} 
             status={props.status}
-            updateStatus={props.updateStatus} />
+            updateStatus={props.updateStatus}
+            savePhoto = {props.savePhoto} />
 
             
-            <MyPostsContainer />
+            <MyPostsContainer 
+            profile={props.profile}/>
         </div>
     )
 }
