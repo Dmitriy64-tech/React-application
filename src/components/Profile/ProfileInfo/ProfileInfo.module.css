@@ -15,3 +15,13 @@ img{
 .status{
     margin-bottom: 20px;
 }
+.contact{
+    margin-left: 10px;
+}
+.editBTN{
+    margin-top: 10px;
+}
+.formSummaryError{
+    padding: 5px;
+    color: red;
+}
